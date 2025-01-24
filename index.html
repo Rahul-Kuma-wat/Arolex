@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="input.css">
+    <title>Arolax</title>
+</head>
+
+<body>
+    <header class=" bg-black w-full  overflow-x-hidden">
+        <nav class=" w-full mx-auto flex flex-wrap items-center justify-between px-5 py-6 md:py-10  ">
+
+            <div>
+                <img class=" h-8 md:h-10" src="./img/logoBold.svg" alt=" Logo">
+            </div>
+
+
+
+            <ul id="mobile-menu" class=" hidden md:flex text-gray-400 items-center text-sm font-medium gap-4 lg:gap-12">
+                <li>DEMO</li>
+                <li>PORTFOLIO <i class="fa-solid fa-angle-down ml-1"></i></li>
+                <li>RTL <i class="fa-solid fa-angle-down ml-1"></i></li>
+                <li>HOME <i class="fa-solid fa-angle-down ml-1"></i></li>
+                <li>PAGES <i class="fa-solid fa-angle-down ml-1"></i></li>
+                <li>SHOP</li>
+            </ul>
+
+            <div class="lg:flex md:flex hidden md:block lg:block items-center gap-3 ">
+                <div class="bg-white px-4 md:px-6 py-2 rounded-full">
+
+                    <button class="text-sm font-semibold"><a href="">LEST TALK</a></button>
+                </div>
+                <div class="bg-white rounded-full px-4 py-2.5 rotate-45 ">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </div>
+
+            </div>
+
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-button" class="text-gray-400 focus:outline-none">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Hero section -->
+        <section class="container ">
+            <div class=" flex flex-col md:gap-4 gap-2  lg:gap-6 ">
+                <div class="flex flex-col ">
+                    <div class="flex md:gap-6 gap-4  lg:gap-10 md:ml-24 lg:ml-48 ml-32  ">
+                        <h1>We’re</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="hero-icon" width="80" height="80"
+                            viewBox="0 0 80 80" fill="white">
+                            <path
+                                d="M75.4264 35.3828L42.4611 38.9369L68.8842 17.6755C70.6944 15.8667 70.6944 12.979 68.8842 11.1702C67.0739 9.36136 64.1839 9.36136 62.3737 11.1702L41.0955 37.5724L44.6524 4.63308C44.6207 2.06267 42.5564 0 40.0157 0C37.475 0 35.4107 2.06267 35.4107 4.60135L38.9677 37.5407L17.6895 11.1384C15.8792 9.32963 12.9892 9.32963 11.179 11.1384C9.36876 12.9472 9.36876 15.835 11.179 17.6438L37.6021 38.9052L4.60498 35.3828C2.0643 35.3828 0 37.4455 0 39.9841C0 42.5228 2.0643 44.5855 4.60498 44.5855L37.7608 41.0313L12.2905 61.5311C10.4803 63.3399 10.4803 66.2277 12.2905 68.0365C14.1008 69.8453 16.9908 69.8453 18.801 68.0365L38.8724 43.1575L35.4107 75.3987C35.4107 77.9373 37.475 80 40.0157 80C42.5564 80 44.6207 77.9373 44.6207 75.3987L41.0637 42.4593L62.3419 68.8616C64.1522 70.6704 67.0422 70.6704 68.8524 68.8616C70.6626 67.0528 70.6626 64.165 68.8524 62.3562L42.4293 41.0948L75.3947 44.6489C77.9353 44.6489 79.9996 42.5863 79.9996 40.0476C80.0314 37.4455 77.9671 35.3828 75.4264 35.3828Z"
+                                fill=""></path>
+                        </svg>
+                    </div>
+                    <span class=" md:ml-5 lg:ml-16 ml-16 ">
+                        <h1>creative design</h1>
+                    </span>
+                    <span>
+                        <h1 class="lg:ml-48 md:ml-28 ml-28 bg-black relative z-20  ">agency</h1>
+                    </span>
+                </div>
+
+                <div class=" lg:flex md:flex flex-col md:gap-1">
+                    <div class="relative z-10 hidden  md:block lg:block">
+                        <img class="lg:ml-[5rem] md:ml-[2rem] md:w-[10rem] lg:w-[12rem] md:h-[12rem] lg:h-[15rem] relative md:bottom-[4.5rem] lg:bottom-[5.5rem]"
+                            src="./img/aboutT.webp" alt="hero-img">
+                        <button
+                            class="bg-white p-5 rounded-full absolute lg:bottom-[12.5rem] md:bottom-[9rem] lg:ml-[8rem] md:ml-[3.5rem] lg:w-[4rem] lg:h-[4rem]  md:w-[3.5rem] md:h-[3.5rem] md:py-2"><a
+                                href="./video/Management.mp4"></a> <i class="fa-solid fa-play text-xs "></i></button>
+                    </div>
+
+                    <div class=" lg:hidden md:hidden sm:block px-5">
+                        <img class=" w-[23rem] relative md:bottom-[4.5rem] lg:bottom-[5.5rem]" src="./img/about.jpg"
+                            alt="hero-img">
+                        <button
+                            class="bg-white p-5 rounded-full absolute  w-[4rem] h-[4rem] left-28 top-[21rem] py-2"><a
+                                href="./video/Management.mp4"></a> <i class="fa-solid fa-play text-xs "></i></button>
+                    </div>
+
+                    <div class="lg:ml-[22rem] md:ml-[15rem] absolute lg:mt-3 md:mt-4 mt-8 gap-10 lg:px-0 md:px-0 px-5">
+                        <div>
+                            <img src="./img/Image.png">
+                        </div>
+
+                        <div class="flex  py-10">
+                            <h1 class="text-2xl text-white font-medium -rotate-90  ">120K+</h1>
+                            <ul class="text-white text-base font-normal">
+                                <li>Arolax customer</li>
+                                <li>get our creative</li>
+                                <li>agency solutions</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </header>
+
+    <!-- about section -->
+
+    <section class="  container-1  ">
+        <div class="flex flex-col lg:gap-10 gap-5 ">
+            <div>
+                <h3 class="font-semibold text-xl">WE'RE A TEAM OF</h3>
+            </div>
+            <div class="lg:w-[25rem] md:w-[30rem]">
+                <h1 class="text-black lg:text-6xl  font-normal">Originative about unique ideas.</h1>
+            </div>
+            <div><img class=" mt-5 w-14" src="./img/design-icon.png" alt="design-icon"></div>
+            <div class="flex mt-5">
+                <span>
+                    <button class=" bg-black text-white text-xl font-medium px-10 py-5 rounded-full"><a href=""> ALL
+                            SERVICES</a></button>
+                </span>
+                <div
+                    class="bg-black text-white text-xl rounded-full w-[4rem] h-[4rem] items-center px-6 py-5 rotate-45 ">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-2  overflow-y-auto h-screen hide-scrollbar">
+
+            <div class="container-2-div-1 flex-col">
+                <p>STRATEGY</p>
+                <hr class="w-[18rem]  border-t- border-[#121212]">
+                <div class="w-[20rem]">
+                    <p class=" text-4xl font-normal ">Innovative digital solution</p>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M31.9162 2.9388C31.1796 2.56688 30.2839 2.56688 29.5472 2.9388L11.2414 12.1811C9.56866 13.0256 9.56866 15.2118 11.2414 16.0563L29.5472 25.2986C30.2839 25.6705 31.1796 25.6705 31.9162 25.2986L50.2221 16.0563C51.8948 15.2118 51.8948 13.0256 50.2221 12.1811L31.9162 2.9388ZM28.1258 0.613661C29.7464 -0.204553 31.717 -0.204554 33.3376 0.613661L51.6434 9.85594C55.3234 11.7139 55.3234 16.5235 51.6435 18.3814L33.3376 27.6237C31.717 28.4419 29.7464 28.4419 28.1258 27.6237L9.81997 18.3814C6.14002 16.5235 6.14001 11.7139 9.81997 9.85594L28.1258 0.613661ZM6.50704 24.2564C4.88265 23.4749 2.92683 24.5451 2.92683 26.2154V46.5981C2.92683 47.4071 3.41177 48.1518 4.19205 48.5411L21.2652 57.0596C22.8907 57.8706 24.878 56.8018 24.878 55.1167V34.4297C24.878 33.6086 24.3787 32.8549 23.5802 32.4707L6.50704 24.2564ZM0 26.2154C0 22.5407 4.30281 20.1863 7.87647 21.9057L24.9496 30.12C26.7062 30.9651 27.8049 32.6234 27.8049 34.4297V55.1167C27.8049 58.824 23.4327 61.1754 19.8567 59.3912L2.78349 50.8727C1.06686 50.0162 0 48.3778 0 46.5981V26.2154ZM57.0732 26.2154C57.0732 24.5451 55.1173 23.4749 53.493 24.2564L36.4198 32.4707C35.6213 32.8549 35.122 33.6086 35.122 34.4297V55.1167C35.122 56.8018 37.1093 57.8706 38.7348 57.0596L55.8079 48.5411C56.5882 48.1518 57.0732 47.4071 57.0732 46.5981V26.2154ZM52.1235 21.9057C55.6972 20.1863 60 22.5407 60 26.2154V46.5981C60 48.3778 58.9331 50.0162 57.2165 50.8727L40.1433 59.3912C36.5673 61.1754 32.1951 58.824 32.1951 55.1167V34.4297C32.1951 32.6234 33.2938 30.9651 35.0504 30.12L52.1235 21.9057Z">
+                    </path>
+                </svg>
+                <div class="w-[20rem]">
+                    <p class="text-[#555555] text-xl font-normal">Brand identity design a the key have to success
+                        whether
+                        you breath onfire arolax agency rebranding.</p>
+                </div>
+                <div class="flex gap-2">
+                    <span><button class="text-[#555555] font-medium text-base"><a href="">LEARN MORE</a></button></span>
+                    <div class="text-[#555555] text-base font-normal rotate-45 hover:underline">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-2-div-1  lg:flex-row lg:gap-20   ">
+                <div class="container-2-div-2">
+                    <p>DESIGN</p>
+                    <hr class="w-[18rem]  border-t- border-[#121212]">
+                    <p class=" text-4xl font-normal ">UX/UI and website designing</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+                        <path
+                            d="M38.0488 22.2261C38.0488 22.9319 37.4872 23.504 36.7944 23.504H18.8153C18.1226 23.504 17.561 22.9319 17.561 22.2261C17.561 21.5203 18.1226 20.9482 18.8153 20.9482H36.7944C37.4872 20.9482 38.0488 21.5203 38.0488 22.2261Z"
+                            fill="#121212"></path>
+                        <path
+                            d="M18.8153 39.1587C18.1226 39.1587 17.561 38.5865 17.561 37.8807C17.561 37.175 18.1226 36.6028 18.8153 36.6028H26.5505C27.2433 36.6028 27.8049 37.175 27.8049 37.8807C27.8049 38.5865 27.2433 39.1587 26.5505 39.1587H18.8153Z"
+                            fill="#121212"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M51.9512 19.6047C51.9512 16.2805 50.2355 13.2012 47.434 11.4972L30.7264 1.33498C27.8 -0.445009 24.1507 -0.444991 21.2243 1.33502L4.51718 11.4972C1.71566 13.2012 1.03467e-06 16.2805 8.92043e-07 19.6046L0 40.3957C-1.42625e-07 43.7199 1.71572 46.7993 4.5173 48.5033L21.2244 58.6651C24.1508 60.445 27.7999 60.445 30.7263 58.6651L47.4338 48.5033C50.2355 46.7993 51.9512 43.7199 51.9512 40.3957V31.7041H58.7456C59.4384 31.7041 60 31.1319 60 30.4261C60 29.7204 59.4384 29.1482 58.7456 29.1482H51.9512V19.6047ZM49.0244 29.1482V19.6047C49.0244 17.3302 47.8505 15.2233 45.9336 14.0574L29.2261 3.89524C27.2238 2.67736 24.7269 2.67737 22.7246 3.89527L6.01753 14.0574C4.1007 15.2233 2.92683 17.3302 2.92683 19.6046L2.92683 40.3957C2.92683 42.6702 4.10074 44.7771 6.01762 45.943L22.7247 56.1048C24.727 57.3226 27.2238 57.3226 29.226 56.1048L45.9336 45.943C47.8505 44.7771 49.0244 42.6702 49.0244 40.3957V31.7041H18.8153C18.1226 31.7041 17.561 31.1319 17.561 30.4261C17.561 29.7204 18.1226 29.1482 18.8153 29.1482H49.0244Z">
+                        </path>
+                    </svg>
+
+                    <p class="text-[#555555] text-xl font-normal">Brand identity design a the key have to success
+                        whether
+                        you breath onfire arolax agency rebranding.</p>
+                    <div class="flex gap-2">
+                        <span><button class="text-[#555555] font-medium text-base"><a href="">LEARN
+                                    MORE</a></button></span>
+                        <div class="text-[#555555] text-base font-normal rotate-45 hover:underline">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-2-div-2 ">
+                    <p>PRODUCTION</p>
+                    <hr class="w-[18rem]  border-t- border-[#121212]">
+                    <p class=" text-4xl font-normal ">Market research & strategy</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M40.1426 22.9837V37.0149H48.8252C54.9856 37.0149 60 42.1716 60 48.5068C60 54.8421 54.9842 60 48.8252 60C42.6649 60 37.6492 54.842 37.6492 48.5068V39.5805H22.3521V48.5081C22.3521 54.8421 17.3376 60 11.1773 60H11.1748C5.01454 60 0 54.8421 0 48.5081C0 42.1747 5.01661 37.0163 11.1773 37.0163H19.8586V22.9851H11.1773C5.01545 22.9851 0 17.8268 0 11.4932C0 5.15827 5.01673 0 11.1773 0C17.3375 0 22.3521 5.15776 22.3521 11.4932V20.4208H37.6492V11.4919C37.6492 5.15695 42.6646 0 48.8252 0C54.9858 0 60 5.15564 60 11.4906C60 17.8259 54.9842 22.9837 48.8252 22.9837H40.1426ZM40.1426 11.4919V20.4208H48.8252C53.6146 20.4208 57.5065 16.4162 57.5065 11.4919C57.5065 6.56707 53.6141 2.56424 48.8252 2.56424C44.0353 2.56424 40.1426 6.56681 40.1426 11.4919ZM11.1773 20.4208H19.8599V11.4932C19.8599 6.56732 15.9678 2.56424 11.1786 2.56424C6.38892 2.56424 2.49477 6.56656 2.49477 11.4932C2.49477 16.4176 6.38986 20.4191 11.1773 20.4208ZM19.8586 48.5068V39.5792H11.1773C6.38788 39.5792 2.49349 43.5812 2.49349 48.5068C2.49349 53.4316 6.38587 57.4344 11.1748 57.4344C15.9643 57.4344 19.8586 53.4324 19.8586 48.5068ZM37.6492 22.9837H22.3521V37.0149H37.6492V22.9837ZM48.8252 39.5792H40.1426V48.5055C40.1426 53.4316 44.035 57.4344 48.8252 57.4344C53.6144 57.4344 57.5065 53.4314 57.5065 48.5055C57.5065 43.5818 53.6139 39.5792 48.8252 39.5792Z">
+                        </path>
+                    </svg>
+                    <p class="text-[#555555] text-xl font-normal">Brand identity design a the key have to success
+                        whether
+                        you breath onfire arolax agency rebranding.</p>
+                    <div class="flex gap-2">
+                        <span><button class="text-[#555555] font-medium text-base"><a href="">LEARN
+                                    MORE</a></button></span>
+                        <div class="text-[#555555] text-base font-normal rotate-45 hover:underline">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container-2-div-1 flex-col">
+                <p>CAMPAIGNS</p>
+                <hr class="w-[18rem]  border-t- border-[#121212]">
+                <div class="w-[20rem]">
+                    <p class=" text-4xl font-normal ">Business campaign consultation</p>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M25.3473 6.10168V17.2881C25.3473 19.0011 23.9196 20.3898 22.1584 20.3898C20.3972 20.3898 18.9694 19.0011 18.9694 17.2881V6.10168C18.9694 4.38866 20.3972 2.99999 22.1584 2.99999C23.9196 2.99999 25.3473 4.38866 25.3473 6.10168ZM15.8851 6.10168C15.8851 2.73181 18.6937 0 22.1584 0C25.6231 0 28.4317 2.73181 28.4317 6.10168V17.2881C28.4317 20.6579 25.6231 23.3898 22.1584 23.3898C18.6937 23.3898 15.8851 20.6579 15.8851 17.2881V6.10168ZM46.4975 9.45896C43.5289 9.45896 41.1223 11.7996 41.1223 14.687C41.1223 17.5744 43.5289 19.9151 46.4975 19.9151C49.4661 19.9151 51.8726 17.5744 51.8726 14.687C51.8726 11.7996 49.4661 9.45896 46.4975 9.45896ZM54.957 14.687C54.957 10.1428 51.1695 6.45897 46.4975 6.45896C41.8254 6.45896 38.038 10.1428 38.038 14.687C38.038 19.2312 41.8254 22.915 46.4975 22.915C51.1695 22.915 54.957 19.2312 54.957 14.687ZM49.6107 48.9609C53.0861 45.5233 55.5504 41.2641 56.8066 36.6374C57.0921 35.5859 56.8004 34.6443 56.0752 33.8798C55.31 33.0731 54.0598 32.4916 52.6188 32.4916H30L7.38115 32.4916C5.94022 32.4916 4.68995 33.0731 3.9248 33.8798C3.19961 34.6443 2.90792 35.5859 3.19341 36.6374C4.44955 41.2641 6.91392 45.5233 10.3893 48.9609C15.5994 54.1143 22.6546 57 30 57C37.3454 57 44.4006 54.1143 49.6107 48.9609ZM59.7888 37.4034C60.9486 33.1315 57.1614 29.4916 52.6188 29.4916H30L7.38115 29.4916C2.83859 29.4916 -0.948558 33.1316 0.211248 37.4034C1.60208 42.5261 4.33237 47.2486 8.19008 51.0643C13.9744 56.7857 21.8197 60 30 60C38.1803 60 46.0256 56.7857 51.8099 51.0643C55.6676 47.2486 58.3979 42.5261 59.7888 37.4034Z">
+                    </path>
+                </svg>
+                <div class="w-[20rem]">
+                    <p class="text-[#555555] text-xl font-normal">Brand identity design a the key have to success
+                        whether
+                        you breath onfire arolax agency rebranding.</p>
+                </div>
+                <div class="flex gap-2">
+                    <span><button class="text-[#555555] font-medium text-base"><a href="">LEARN MORE</a></button></span>
+                    <div class="text-[#555555] text-base font-normal rotate-45 hover:underline">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- creative design section -->
+
+    <section class=" img mt-20 pt-2.5 xl:mx-auto xl:bg-center lg:pl-16 md:pl-10">
+        <div
+            class="flex flex-col gap-10 bg-[#171717] lg:w-[27rem] lg:h-[35rem] lg:mt-[13.3rem] md:w-[27rem] md:mt-[5rem] mt-10  ">
+            <div class="flex flex-col  gap-10 px-10 pt-10">
+                <div class="flex gap-5">
+                    <div>
+                        <button class="bg-white p-5 rounded-full w-[4rem] "><a href="./video/Management.mp4"></a> <i
+                                class="fa-solid fa-play text-xs"></i></button>
+                    </div>
+                    <button class="text-white text-sm font-medium"><a href="">Watch <br>Video</a></button>
+                </div>
+                <p class="text-white text-5xl">We're largest
+                    creative design
+                    agency with
+                    proven track
+                    record of very
+                    quality work.</p>
+            </div>
+            <div class="flex gap-3 bg-[#121212] w-[27rem] px-10 py-10"> ">
+                <div>
+                    <button class="text-white text-sm font-medium"><a href="">GET THIS SERVICES</a></button>
+                </div>
+                <div class="text-white text-base font-normal rotate-45 ">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- quality section -->
+    <section class="xl:mx-[40rem] my-20 ">
+
+        <div class="mx-auto  lg:w-[36rem] md:w-[36rem]  lg:ml-[25rem] md:ml-[10rem] lg:pl-0 md:pl-0 pl-5 ">
+            <p class=" lg:hidden md:hidden sm:block lg:text-lg md:text-sm">AROLAX AWARDS</p>
+            <h1 class="text-[#121212] text-6xl  ">We believe in
+                quality, not quantity!</h1>
+        </div>
+        <div class="mx-auto lg:flex md:flex lg:gap-20 md:gap-1 lg:px-0 md:px-0 px-5">
+            <div class=" flex px-10 lg:gap-10 md:gap-0   pt-24">
+                <div>
+                    <p class="hidden lg:block md:block lg:text-lg md:text-sm">AROLAX AWARDS</p>
+                </div>
+
+                <hr class="hidden lg:block md:block w-[8rem] mt-3 border-t- border-[#121212]">
+            </div>
+            <div class="flex flex-col pt-10   gap-10 ">
+                <div><img class=" lg:pr-0 md:pr-0 relative  w-14" src="./img/design-icon.png" alt="design-icon">
+                </div>
+
+                <div class="lg:w-[40rem] md:w-[31rem]">
+                    <p class="text-[#555555]">Digital-first branding, top-notch web design, lucrative e-commerce
+                        website
+                        tactical online marketing just to name a few. We morph designs. Agency is a full-service
+                        agency,
+                        busy on designing, and building beautiful digital products, brands experiences with arolax
+                        agency we have to our arolax creative agency!</p>
+                </div>
+                <div class="lg:flex md:flex lg:gap-20 md:gap-8">
+                    <div class=" flex flex-col gap-5">
+                        <img class="w-[4rem]" src="./img/Webby_Awards-2.png" alt="">
+                        <hr class="lg:w-[15rem] md:w-[13rem]  border-t- border-[#121212]">
+                        <p class=" text-md font-normal text-[#555555] ">3X SITE OF THE DAY</p>
+                    </div>
+
+                    <div class=" flex flex-col gap-5 mt-4   ">
+                        <img class="w-[4rem]" src="./img/awaredA.png" alt="">
+                        <hr class="lg:w-[15rem] md:w-[13rem]  border-t- border-[#121212]">
+                        <p class=" text-md font-normal text-[#555555] ">4X SITE OF THE DAY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="  mt-20 ">
+            <div class="lg:flex md:flex lg:gap-20 md:gap-5  lg:px-0 md:px-5 px-5">
+                <div class="lg:pl-8">
+                    <img class="lg:w-[35rem] lg:h-[35rem] md:w-[20rem] md:h-[30rem] w-[25rem] h-[23rem]"
+                        src="./img/image-1.png" alt="">
+                    <img class="hidden md:block lg:block lg:ml-[30rem] md:ml-[13rem] relative bottom-[4rem] z-20 h-[10rem] "
+                        src="./img/center-image.png" alt="">
+                </div>
+                <div class=" lg:mt-0 md:mt-0 mt-5 justify-start">
+                    <img class="lg:w-[25rem] lg:h-[27rem] md:w-[20rem] md:h-[22rem] w-[22rem]" src="./img/image-2.jpg"
+                        alt="">
+                    <h2>Busynet Traffic <br>Grow</h2>
+                    <p class="text-[#555555] mt-5 text-sm">MARKETING</p>
+                    <!-- <img class="md:hidden lg:hidden lg:ml-[30rem] md:ml-[13rem] w-[10rem]  relative bottom-[4rem] left-32 z-20 h-[10rem] " src="./img/center-image.png" alt=""> -->
+                </div>
+
+
+
+            </div>
+
+            <div class="lg:flex md:flex lg:gap-28 md:gap-10 lg:px-0 md:px-5 px-5 ">
+                <div class="lg:ml-28 md:ml-5  lg:mt-0 md:mt-0 mt-5">
+                    <img class="lg:w-auto md:w-[17rem] w-[22rem] lg:h-auto md:h-auto h-[20rem]" src="./img/image-3.webp"
+                        alt="">
+                    <h2>
+                        Real strategy <br>roadmap
+                    </h2>
+                    <p class="text-[#555555] mt-5 text-sm">MARKETING</p>
+                </div>
+                <div
+                    class="lg:w-[35rem] lg:h-[30rem]  md:w-[25rem] md:h-[40rem] w-[22rem] h-[15rem] lg:mt-0 md:mt-0 mt-32 relative bottom-[7rem] z-10">
+                    <img src="./img/image-4.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Trusted by the best section -->
+    <section class="xl:mx-[40rem] my-36 overflow-x-hidden ">
+        <div>
+            <div class=" flex lg:ml-[14.5rem] md:ml-[9.5rem]  gap-10 ">
+                <div class="grid">
+                    <img class="hidden md:block lg:block" src="./img/brand-logo-1.png" alt="">
+                </div>
+                <h1 class="text-[#121212] lg:text-6xl md:text-6xl text-4xl mt-6">Trusted by <br>the best</h1>
+            </div>
+            <div class="lg:flex-col md:flex-col flex lg:gap-0 md:gap-0 gap-10 lg:mt-0 md:mt-0 mt-5">
+                <div class="lg:flex md:flex  pl-10">
+                    <div class="grid">
+                        <img src="./img/brand-logo-2.png" alt="">
+                    </div>
+
+                    <div class="grid">
+                        <img src="./img/brand-logo-3.png" alt="">
+                    </div>
+
+                    <div class="grid">
+                        <img src="./img/brand-logo-4.png" alt="">
+                    </div>
+
+                    <div class="grid">
+                        <img src="./img/brand-logo-5.png" alt="">
+                    </div>
+
+                    <div class="grid">
+                        <img src="./img/brand-logo-6.png" alt="">
+                    </div>
+                </div>
+
+                <div class="lg:ml-[14.5rem] md:ml-[9.5rem] lg:flex md:flex">
+                    <div class="grid">
+                        <img src="./img/brand-logo-7.png" alt="">
+                    </div>
+
+                    <div>
+                        <div class="grid">
+                            <img src="./img/brand-logo-8.png" alt="">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="grid">
+                            <img src="./img/brand-logo-9.png" alt="">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="grid">
+                            <img src="./img/brand-logo-10.png" alt="">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="grid">
+                            <img src="./img/brand-logo-11.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div>
+                <div class="hidden md:block lg:block lg:ml-[50.5rem] md:ml-[30.5rem] ">
+                    <div class="grid">
+                        <img src="./img/brand-logo-12.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SERVICES section -->
+
+    <section class=" my-40 lg:flex md:flex  overflow-x-hidden">
+        <div class="bg-[#121212] w-full lg:py-36 md:py-36 py-24 pl-10 lg:h-screen md:h-[55rem] h-[35rem]">
+            <div class="flex flex-col gap-10">
+                <div>
+                    <img src="./img/Image.png">
+                </div>
+                <div>
+                    <span class="flex  gap-1">
+                        <p class="text-white font-semibold text-md"><u>We have 18k+</u></p>
+                        <p class="text-[#999999]  text-md">customers</p>
+                    </span>
+                    <div>
+                        <p class="text-[#999999]"> word-wide</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[20rem] mt-14">
+                <p class="text-[#999999] text-xl">Find the best fit engineers led by senior, seasoned, and skilled our
+                    tech- lead.</p>
+            </div>
+
+            <div class="flex mt-10 gap-1.5">
+                <span>
+                    <button
+                        class=" bg-black text-white text-sm font-medium px-5 py-5 rounded-full border border-white"><a
+                            href=""> GET
+                            SERVICES</a></button>
+                </span>
+                <div
+                    class="bg-black text-white text-lg  rounded-full w-[3.8rem] h-[3.8rem] px-5 py-4 rotate-45 border border-white ">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#212529] w-full lg:px-20 md:px-5 px-5 pt-10  lg:h-screen md:h-[55rem] h-[37rem]">
+            <div class=" flex flex-col gap-10">
+                <div class="flex gap-5">
+                    <div>
+                        <button class="bg-white p-5 rounded-full w-[4rem] "><a href="./video/Management.mp4"></a> <i
+                                class="fa-solid fa-play text-xs"></i></button>
+                    </div>
+                    <button class="text-white text-sm font-medium"><a href="">Watch <br>Video</a></button>
+                </div>
+                <div>
+                    <p class="text-white lg:text-5xl md:text-5xl text-4xl font-medium">We believe that our works can
+                        contribute to a better
+                        world.</p>
+                </div>
+                <div><img class="  w-14" src="./img/design-icon.png" alt="design-icon"></div>
+            </div>
+            <div class="flex flex-col gap-10 mt-10 lg:pl-[5rem] md:pl-[3rem] pl-5">
+                <div class="flex flex-col gap-3">
+                    <p class="text-white lg:text-xl md:text-lg font-medium"> + Website & Mobile App Design</p>
+                    <p class="text-[#999999] text-lg hidden">Brand identity design a the key we not to be have to where
+                        arolax agency taken of my entire soul, like on these sweet mornings.</p>
+
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <p class="text-white lg:text-xl md:text-lg font-medium"> + Website & Mobile App Design</p>
+                    <p class="text-[#999999] text-lg hidden">Brand identity design a the key we not to be have to where
+                        arolax agency taken of my entire soul, like on these sweet mornings.</p>
+
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <p class="text-white text-xl font-medium"> + User Experience</p>
+                    <p class="text-[#999999] text-lg hidden">Brand identity design a the key we not to be have to where
+                        arolax agency taken of my entire soul, like on these sweet mornings.</p>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- team section -->
+    <section class="xl:mx-[30rem]  flex flex-col xl:flex  gap-20 overflow-x-hidden">
+        <div class="flex flex-col lg:ml-[20rem] md:ml-[1rem] lg:gap-10 md:gap-5">
+            <h1 class="text-[#121212] text-6xl font-medium">Introducing our <br>skilled team!</h1>
+            <div class="ml-20"><img class=" w-14" src="./img/design-icon.png" alt="design-icon"></div>
+        </div>
+        <div class="pl-5 lg:flex md:flex lg:gap-10 xl:gap-20 md:gap-5  ">
+
+            <div>
+                <div class="flex flex-col gap-3">
+                    <img class="lg:w-[18rem] md:w-[22rem] w-[21.5rem] "
+                        src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/teamF-1.webp"
+                        alt="">
+
+                    <a class=" text-2xl font-medium" href="#">Ceyhan Özçivit</a>
+                    <a class="text-[#999999] font-medium text-lg" href="#">CEO,Alaska</a>
+                </div>
+                <div class="flex gap-1 pt-5">
+                    <div class="rounded-full w-[2rem] h-[2rem]  px-2 py-1.5 border border-gray-300"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1rem"
+                            class="team-img"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </div>
+                    <div class=" rounded-full border border-gray-300 w-[6rem] h-[2rem] px-4 py-1.5">
+                        <p class="text-[#121212] text-sm font-bold">LINKEDIN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex flex-col gap-3 lg:mt-0 md:mt-0 mt-8">
+                    <img class="lg:w-[18rem] md:w-[22rem] w-[21.5rem]"
+                        src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/TeamA-1.webp"
+                        alt="">
+
+                    <a class=" text-2xl font-medium" href="#">Özge Törer</a>
+                    <a class="text-[#999999] font-medium text-lg" href="#">Jr.Executive</a>
+                </div>
+                <div class="flex gap-1 pt-5">
+                    <div class="rounded-full w-[2rem] h-[2rem] px-2 py-1.5 border border-gray-300"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </div>
+                    <div class=" rounded-full border border-gray-300 w-[6rem] h-[2rem] px-4 py-1.5">
+                        <p class="text-[#121212] text-sm font-bold">LINKEDIN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:hidden lg:block">
+                <div class="flex flex-col gap-3 lg:mt-0 md:mt-0 mt-8">
+                    <img class="lg:w-[18rem] md:w-[22rem] w-[21.5rem]"
+                        src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/TeamC-1.webp"
+                        alt="">
+
+                    <a class=" text-2xl font-medium" href="#">Aşenur Özkan</a>
+                    <a class="text-[#999999] font-medium text-lg" href="#">Marketing Leader</a>
+                </div>
+                <div class="flex gap-1 pt-5">
+                    <div class="rounded-full w-[2rem] h-[2rem] px-2 py-1.5 border border-gray-300"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </div>
+                    <div class=" rounded-full border border-gray-300 w-[6rem] h-[2rem] px-4 py-1.5">
+                        <p class="text-[#121212] text-sm font-bold">LINKEDIN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="xl:mt-[1rem] hidden xl:block">
+                <div
+                    class="lg:pl-14 md:pl-8 xl:pl-4 xl:flex-wrap lg:relative lg:bottom-[8rem]     bottom-24  left-10  z-20">
+                    <img src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/join.png"
+                        alt=" JOIN THE TEAM LOGO">
+                </div>
+                <div class="relative lg:bottom-[13.5rem] md:bottom-0 bottom-[13.5rem] z-10">
+                    <div class="flex flex-col gap-3">
+                        <img class="lg:w-[18rem] md:w-[22rem] w-[21.5rem] "
+                            src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/TeamB-1.webp"
+                            alt="">
+
+                        <a class=" text-2xl font-medium" href="#">Burak Özçivit</a>
+                        <a class="text-[#999999] font-medium text-lg" href="#">Co-Ordinator</a>
+                    </div>
+                    <div class="flex gap-1 pt-5">
+                        <div class="rounded-full w-[2rem] h-[2rem] px-2 py-1.5 border border-gray-300"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                            </svg>
+                        </div>
+                        <div class=" rounded-full border border-gray-300 w-[6rem] h-[2rem] px-4 py-1.5">
+                            <p class="text-[#121212] text-sm font-bold">LINKEDIN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="pl-5 lg:flex-col md:flex  lg:gap-0 md:gap-5  ">
+             <div class="md:block lg:hidden hidden">
+                <div class="flex flex-col gap-3 lg:mt-0 md:mt-0 mt-8">
+                    <img class="lg:w-[18rem] md:w-[22rem] w-[21.5rem]"
+                        src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/TeamC-1.webp"
+                        alt="">
+
+                    <a class=" text-2xl font-medium" href="#">Aşenur Özkan</a>
+                    <a class="text-[#999999] font-medium text-lg" href="#">Marketing Leader</a>
+                </div>
+                <div class="flex gap-1 pt-5">
+                    <div class="rounded-full w-[2rem] h-[2rem] px-2 py-1.5 border border-gray-300"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            width="1rem">//!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </div>
+                    <div class=" rounded-full border border-gray-300 w-[6rem] h-[2rem] px-4 py-1.5">
+                        <p class="text-[#121212] text-sm font-bold">LINKEDIN</p>
+                    </div>
+                </div>
+            </div> 
+
+            <div
+                    class="lg:pl-14 md:pl-8 xl:pl-4 xl:flex-wrap lg:relative lg:bottom-[8rem] xl:hidden  md:hidden    relative  bottom-24  left-10  z-20">
+                    <img src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/join.png"
+                        alt=" JOIN THE TEAM LOGO">
+                </div>
+                <div class="relative lg:bottom-[13.5rem] md:bottom-0 bottom-[13.5rem] z-10 xl:hidden">
+                    <div class="flex flex-col gap-3">
+                        <img class="lg:w-[18rem] md:w-[22rem] w-[21.5rem]  "
+                            src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/TeamB-1.webp"
+                            alt="">
+
+                        <a class=" text-2xl font-medium" href="#">Burak Özçivit</a>
+                        <a class="text-[#999999] font-medium text-lg" href="#">Co-Ordinator</a>
+                    </div>
+                    <div class="flex gap-1 pt-5">
+                        <div class="rounded-full w-[2rem] h-[2rem] px-2 py-1.5 border border-gray-300"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                            </svg>
+                        </div>
+                        <div class=" rounded-full border border-gray-300 w-[6rem] h-[2rem] px-4 py-1.5">
+                            <p class="text-[#121212] text-sm font-bold">LINKEDIN</p>
+                        </div>
+                    </div>
+                </div>
+
+        </div> 
+    </section>
+
+    <!-- Testimonial section -->
+
+    <section class=" overflow-x-hidden lg:mt-0 md:mt-10 ">
+        <div class="flex flex-col items-center text-center gap-10 lg:px-0 md:px-0 px-5">
+            <h1 class="text-[#121212] text-6xl">Testimonials</h1>
+            <div>
+                <img src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/quote-1.png"
+                    alt="">
+            </div>
+            <div class=" lg:w-[58rem] md:w-[45rem] w-[21rem]">
+                <p class="lg:text-3xl md:text-3xl text-xl  font-normal">When we talk about Alts, we do not mean a
+                    typical business partner, but
+                    rather a team that collaborates with us daily, always there for us when we encounter difficulties
+                    and celebrate achievements. We see in Alts our best ally for success!</p>
+            </div>
+            <div class="flex gap-5">
+                <div class="rounded-full w-[3rem] h-[3rem] overflow-hidden border border-gray-300">
+                    <img src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/testimonial-1.png"
+                        alt="">
+                </div>
+                <div class=" text-start ">
+                    <p class="text-2xl font-medium">Charry Maron</p>
+                    <p class="text-[#999999] ">Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special offer section -->
+
+    <section class="  flex flex-col bg-[#FBF9F9] my-28 py-20 gap-10 overflow-x-hidden">
+        <div>
+            <div>
+                <h1 class="text-[#121212] text-6xl font-medium text-center">Special offer! choose <br>
+                    your pack today</h1>
+            </div>
+            <div class="xl:px-[40rem] lg:flex  lg:gap-10  mt-20 pl-6">
+                <div class="lg:flex md:flex lg:gap-10 md:gap-10 lg:px-0 md:px-0 px-5 gap-5">
+                    <div class="flex flex-col bg-white pl-10 pr-20 py-10 gap-5">
+                        <div>
+                            <p class="text-xl">Basic</p>
+                            <p class="text-5xl font-medium">$9.00</p>
+                        </div>
+                        <div class="flex flex-col gap-2.5">
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg> Unlimited cards</p>
+
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg> Automated management</p>
+
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg> SOX compliance</p>
+
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg> Enterprise ERP integrations</p>
+
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg>Limited tools</p>
+
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg>Local video issuance</p>
+
+                        </div>
+                        <div class="flex ">
+                            <div class="w-[8rem] h-[3.5rem] rounded-full px-7 py-4 border border-[#121212]">
+                                <p class="text-sm font-bold">BUY NOW</p>
+                            </div>
+                            <div
+                                class=" text-lg  rounded-full w-[3.5rem] h-[3.5rem]  px-5 py-3 rotate-45 border border-[#121212] ">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col bg-white px-10 pr-32 py-10 gap-5 lg:mt-0 md:mt-0 mt-5">
+                        <div>
+                            <p class="text-xl">Standard</p>
+                            <p class="text-5xl font-medium">$29.00</p>
+                        </div>
+                        <div class="flex flex-col gap-2.5">
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg> Unlimited cards</p>
+
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg> Automated management</p>
+
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg> SOX compliance</p>
+
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg> Enterprise ERP integrations</p>
+
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg>Limited tools</p>
+
+                            <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                </svg>Local video issuance</p>
+
+                        </div>
+                        <div class="flex ">
+                            <div class="w-[8rem] h-[3.5rem] rounded-full px-7 py-4 border border-[#121212]">
+                                <p class="text-sm font-bold">BUY NOW</p>
+                            </div>
+                            <div
+                                class=" text-lg  rounded-full w-[3.5rem] h-[3.5rem]  px-5 py-3 rotate-45 border border-[#121212] ">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="lg:mt-0 md:mt-10 mt-5  md:ml-40 px-10 lg:mx-0 md:mx-0 mx-5  flex flex-col bg-white pl-10 lg:pr-20 md:pr-0 py-10 gap-5 lg:w-auto md:w-[25rem]">
+                    <div>
+                        <p class="text-xl">Premium</p>
+                        <p class="text-5xl font-medium">$69.00
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2.5">
+                        <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"
+                                width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                            </svg> Unlimited cards</p>
+
+                        <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"
+                                width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                            </svg> Automated management</p>
+
+                        <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"
+                                width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                            </svg> SOX compliance</p>
+
+                        <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"
+                                width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                            </svg> Enterprise ERP integrations</p>
+
+                        <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"
+                                width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                            </svg>Limited tools</p>
+
+                        <p class="flex gap-2 text-[#999999] text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"
+                                width="1rem"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                            </svg>Local video issuance</p>
+
+                    </div>
+                    <div class="flex ">
+                        <div class="w-[8rem] h-[3.5rem] rounded-full px-7 py-4 border border-[#121212]">
+                            <p class="text-sm font-bold">BUY NOW</p>
+                        </div>
+                        <div
+                            class=" text-lg  rounded-full w-[3.5rem] h-[3.5rem]  px-5 py-3 rotate-45 border border-[#121212] ">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inside arolax -->
+    <section class=" xl:mx-[40rem] lg:flex  ">
+        <div class="pl-5 lg:w-[18rem] xl:w-[20rem] lg:overflow-y-auto lg:h-screen  ">
+            <h1 class="text-[#121212] text-6xl ">Inside from the arolax</h1>
+        </div>
+        <div class="flex flex-col gap-5 lg:overflow-y-auto lg:h-screen hide-scrollbar lg:mt-0 md:mt-10 mt-8">
+            <div class="lg:flex md:flex  gap-20 lg:px-0 md:px-0 px-5 ">
+                <div class="flex gap-1 lg:ml-[10rem] md:ml-[1rem]">
+                    <div class="overflow-hidden w-[3rem] h-[3rem] rounded-full ">
+                        <img src="https://secure.gravatar.com/avatar/cf0356b4a0d6bdb2f9d33ce4e691c4af?s=60&d=mm&r=g"
+                            alt="">
+                    </div>
+                    <div class=" text-start ">
+                        <p class="text-xl font-medium">Wealcoder</p>
+                        <p class="text-[#999999] ">blog writer</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-5 pr-5">
+                    <div class="flex gap-10 lg:mt-0 md:mt-0 mt-5">
+                        <button class="bg-[#F1F1F4] rounded-full w-[8rem] px-5 py-1">
+                            <a class="text-xs font-medium" href="">DEVELOPMENT</a>
+                        </button>
+                        <p class="text-xs font-medium mt-1.5">JUNE 11, 2024</p>
+                    </div>
+                    <a href="">
+                        <h2 class="mt-0">Donate your design for newest designer to try better</h2>
+                    </a>
+                    <p class="text-[#999999]">Over the past three years, marketers have faced journey due to the rapid
+                        shifts in consumer.....</p>
+                    <div class="flex ">
+                        <button class="text-sm border border-gray-200 rounded-full px-6 py-3"><a href="#">READ
+                                MORE</a></button>
+                        <div
+                            class=" text-lg  rounded-full w-[2.5rem] h-[2.5rem]  px-3 py-1 rotate-45 border border-gray-200  font-normal">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class=" ml-[10rem] w-[52rem] border border-gray-100">
+            <div class=" lg:flex  md:flex gap-20 lg:px-0 md:px-0 px-5 ">
+                <div class="flex gap-1 lg:ml-[10rem] md:ml-[1rem]">
+                    <div class="overflow-hidden w-[3rem] h-[3rem] rounded-full ">
+                        <img src="https://secure.gravatar.com/avatar/cf0356b4a0d6bdb2f9d33ce4e691c4af?s=60&d=mm&r=g"
+                            alt="">
+                    </div>
+                    <div class=" text-start ">
+                        <p class="text-xl font-medium">Wealcoder</p>
+                        <p class="text-[#999999] ">blog writer</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-5 pr-5 ">
+                    <div class="flex gap-10 lg:mt-0 md:mt-0 mt-5 ">
+                        <button class="bg-[#F1F1F4] rounded-full w-[8rem] px-5 py-1">
+                            <a class="text-xs font-medium" href="">DEVELOPMENT</a>
+                        </button>
+                        <p class="text-xs font-medium mt-1.5">JUNE 11, 2024</p>
+                    </div>
+                    <a href="">
+                        <h2 class="mt-0">Insights from Industry Leaders</h2>
+                    </a>
+                    <p class="text-[#999999]">Over the past three years, marketers have faced journey due to the rapid
+                        shifts in consumer.....</p>
+                    <div class="flex ">
+                        <button class="text-sm border border-gray-300 rounded-full px-6 py-3"><a href="#">READ
+                                MORE</a></button>
+                        <div
+                            class=" text-lg  rounded-full w-[2.5rem] h-[2.5rem]  px-3 py-1 rotate-45 border border-gray-300  font-normal">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class=" ml-[10rem] w-[52rem] border border-gray-100">
+            <div class="lg:flex md:flex gap-20 lg:px-0 md:px-0 px-5 ">
+                <div class="flex gap-1 lg:ml-[10rem] md:ml-[1rem]">
+                    <div class="overflow-hidden w-[3rem] h-[3rem] rounded-full ">
+                        <img src="https://secure.gravatar.com/avatar/cf0356b4a0d6bdb2f9d33ce4e691c4af?s=60&d=mm&r=g"
+                            alt="">
+                    </div>
+                    <div class=" text-start ">
+                        <p class="text-xl font-medium">Wealcoder</p>
+                        <p class="text-[#999999] ">blog writer</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-5 pr-5">
+                    <div class="flex gap-10 lg:mt-0 md:mt-0 mt-5">
+                        <button class="bg-[#F1F1F4] rounded-full w-[8rem] px-5 py-1">
+                            <a class="text-xs font-medium" href="">DEVELOPMENT</a>
+                        </button>
+                        <p class="text-xs font-medium mt-1.5">JUNE 11, 2024</p>
+                    </div>
+                    <a href="">
+                        <h2 class="mt-0">Business consultation</h2>
+                    </a>
+                    <p class="text-[#999999]">Over the past three years, marketers have faced journey due to the rapid
+                        shifts in consumer.....</p>
+                    <div class="flex ">
+                        <button class="text-sm border border-gray-300 rounded-full px-6 py-3"><a href="#">READ
+                                MORE</a></button>
+                        <div
+                            class=" text-lg  rounded-full w-[2.5rem] h-[2.5rem]  px-3 py-1 rotate-45 border border-gray-300  font-normal">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class=" ml-[10rem] w-[52rem] border border-gray-100">
+            <div class="lg:flex md:flex gap-20 lg:px-0 md:px-0 px-5 ">
+                <div class="flex gap-1 lg:ml-[10rem] md:ml-[1rem]">
+                    <div class="overflow-hidden w-[3rem] h-[3rem] rounded-full ">
+                        <img src="https://secure.gravatar.com/avatar/cf0356b4a0d6bdb2f9d33ce4e691c4af?s=60&d=mm&r=g"
+                            alt="">
+                    </div>
+                    <div class=" text-start ">
+                        <p class="text-xl font-medium">Wealcoder</p>
+                        <p class="text-[#999999] ">blog writer</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-5 pr-5">
+                    <div class="flex gap-10 lg:mt-0 md:mt-0 mt-5">
+                        <button class="bg-[#F1F1F4] rounded-full w-[8rem] px-5 py-1">
+                            <a class="text-xs font-medium" href="">DEVELOPMENT</a>
+                        </button>
+                        <p class="text-xs font-medium mt-1.5">JUNE 11, 2024</p>
+                    </div>
+                    <a href="">
+                        <h2 class="mt-0">Market research & strategy</h2>
+                    </a>
+                    <p class="text-[#999999]">Over the past three years, marketers have faced journey due to the rapid
+                        shifts in consumer.....</p>
+                    <div class="flex ">
+                        <button class="text-sm border border-gray-300 rounded-full px-6 py-3"><a href="#">READ
+                                MORE</a></button>
+                        <div
+                            class=" text-lg  rounded-full w-[2.5rem] h-[2.5rem]  px-3 py-1 rotate-45 border border-gray-300  font-normal">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experience section -->
+    <section
+        class="xl:px-[30rem] bg-[#121212] lg:flex md:flex  px-5 py-20 lg:gap-10 md:gap-5 gap-2 mt-20 overflow-x-hidden">
+        <div class="flex flex-col gap-5 w-[50rem]">
+            <h1 class="text-white lg:text-7xl md:text-5xl text-2xl lg:w-auto md:w-auto w-[20rem]">Start your experience
+                with Arolax</h1>
+            <p class="text-[#999999] text-lg lg:w-auto md:w-auto w-[20rem]">Brand identity design a the key we not to be
+                have to where arolax agency
+                taken of my entire soul, like on these.</p>
+        </div>
+        <div class=" pt-20 xl:pl-56 md:pl-1  ">
+            <div class="flex ">
+                <button class="bg-white rounded-full lg:px-10 md:px-5 py-5 lg:w-[14rem] md:w-[15rem] w-[15rem]"><a
+                        href="#" class="font-bold text-sm"> LET'S GET IN
+                        TOUCH</a></button>
+                <div
+                    class=" bg-white text-lg  rounded-full w-[4rem] h-[4rem]  px-6 py-4 rotate-45 border border-gray-200  font-normal">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="xl:mx-[35rem] my-10 pt-20 overflow-x-hidden">
+        <div class=" lg:gap-10 md:gap-5 lg:flex">
+            <div class="pl-5 lg:w-auto md:w-[9rem]">
+                <img src="https://crowdytheme.com/wp/arolax/creative-agency-classic/wp-content/uploads/sites/10/2024/06/logo_footer.svg"
+                    alt="">
+            </div>
+            <div class="flex flex-col lg:gap-10  relative lg:bottom-7 md:bottom-16  ">
+                <div class="flex ">
+                    <div class=" hidden md:block lg:block lg:w-[16rem] md:w-[13rem]">
+                        <hr class="w-[37rem] h-[15rem]  border-t -rotate-90 border-gray-100">
+                    </div>
+                    <div class="lg:flex md:flex lg:gap-20 md:gap-5 lg:px-0 md:px-0 px-5">
+                        <div>
+                            <h2 class="font-normal">Services</h2>
+                            <div class="flex flex-col gap-1 mt-5">
+                                <p class="text-[#555555] font-medium text-lg">Website Design</p>
+                                <p class="text-[#555555] font-medium text-lg">UI Design</p>
+                                <p class="text-[#555555] font-medium text-lg">Marketing</p>
+                                <p class="text-[#555555] font-medium text-lg">WebFlow</p>
+                                <p class="text-[#555555] font-medium text-lg">Developer</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="font-normal">Company</h2>
+                            <div class="flex flex-col gap-1 mt-5">
+                                <p class="text-[#555555] font-medium text-lg">Home</p>
+                                <p class="text-[#555555] font-medium text-lg">Agency</p>
+                                <p class="text-[#555555] font-medium text-lg">Achivement</p>
+                                <p class="text-[#555555] font-medium text-lg">Career</p>
+                                <p class="text-[#555555] font-medium text-lg">Contact Us</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-5">
+                            <h2 class="font-normal">Newsletter</h2>
+                            <div class="flex flex-col gap-1 ">
+                                <p class="text-[#555555] font-medium text-lg lg:w-[20rem] md:w-[16rem]">Feel free to
+                                    reach out if you
+                                    want
+                                    to collaborate with us, or simply have a chat.</p>
+                            </div>
+                            <div class="flex lg:w-auto md:w-[15rem] w-[20rem] ">
+                                <input type="text" id="email" placeholder="Enter you email">
+                                <div class="bg-[#F6F6F6] rounded-r-xl pt-6 w-[2rem] items-center ">
+                                    <i class="fa-brands fa-telegram "></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="flex">
+                    <div class="hidden sm:hidden md:block lg:block lg:w-[16rem] md:w-[13rem]">
+                        <hr class=" w-[22rem]  mt-20 border-t -rotate-90 border-gray-100">
+                    </div>
+                    <div class="lg:flex md:flex lg:gap-20 md:gap-5 lg:px-0 md:px-0 px-5">
+                        <div>
+                            <h2 class="font-normal">New York</h2>
+                            <div class="flex flex-col gap-5 mt-5">
+                                <p class="text-[#555555] font-medium text-lg underline">1772 Street Charleston,<br> New
+                                    York</p>
+                                <p class="text-[#555555] font-medium text-lg ">+1 287-360-633 <br>
+                                    info@yourwebsite.com</p>
+
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="font-normal">London</h2>
+                            <div class="flex flex-col gap-5 mt-5">
+                                <p class="text-[#555555] font-medium text-lg underline">1772 Street Charleston,<br> New
+                                    York</p>
+                                <p class="text-[#555555] font-medium text-lg ">+1 287-360-633 <br>
+                                    info@yourwebsite.com</p>
+
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-3">
+                            <h2 class="font-normal">Follow Us</h2>
+                            <div class="flex gap-3">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-5">
+            <hr class="lg:w-full md:w-full w-full lg:mt-5  border-t  border-gray-100">
+            <p class="text-center font-bold text-lg">© 2024-25 CrowdyThemes Agency</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
